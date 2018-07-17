@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "SerEx",
+    "version": "0.1",
+    "description": "Tagging Users to contact",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
