@@ -8,9 +8,15 @@
         "48": "icon.png",
         "128": "icon.png"
     },
+    "permissions": [
+        "webNavigation", "activeTab", "tabs", "https://*/*"
+      ],
     "content_scripts": [{
         "js": ["content.js"],
         "matches": ["*://fire.service-now.com/*"]
     }],
-    "background_script": []
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
 }
