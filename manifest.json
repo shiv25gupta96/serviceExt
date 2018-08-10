@@ -12,11 +12,13 @@
         "webNavigation", "activeTab", "tabs", "https://*/*"
       ],
     "content_scripts": [{
+        "css": ["styles/c_style.css"],
         "js": ["content.js"],
         "matches": ["*://fire.service-now.com/*"]
     }],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
-    }
+    },
+    "web_accessible_resources": ["scripts/*"]
 }
