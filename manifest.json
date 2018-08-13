@@ -20,5 +20,5 @@
         "scripts": ["background.js"],
         "persistent": false
     },
-    "web_accessible_resources": ["scripts/*"]
+    "web_accessible_resources": ["scripts/*", "styles/c_style.css"]
 }
