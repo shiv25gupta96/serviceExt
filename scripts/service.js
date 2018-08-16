@@ -26,7 +26,7 @@
         var short_decription = jQuery('#incident\\.short_description').val();
         var description = jQuery('#activity-stream-comments-textarea').val();
 
-        return encodeURI(caller_id + '?cc=MDA_Mango_Support,' + opened_by + '&subject=' + short_decription + '&body=' + description);
+        return encodeURI(caller_id + '?cc=MDA_ManGo-Support,' + opened_by + '&subject=' + short_decription + '&body=' + description);
     }
 
     function showMailButton(){
